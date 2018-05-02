@@ -10,6 +10,7 @@
 		1B623C53207C046C00DD5D56 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B623C52207C046C00DD5D56 /* LoginViewController.swift */; };
 		1BB3172D209125F0006121F3 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3172C209125F0006121F3 /* CategoryViewController.swift */; };
 		1BB31731209129AD006121F3 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB31730209129AD006121F3 /* CategoryTableViewCell.swift */; };
+		1BB31735209A5187006121F3 /* ServiceCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB31734209A5186006121F3 /* ServiceCategoryViewController.swift */; };
 		1BFF12F42059A1AD007AE5F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF12F32059A1AD007AE5F0 /* AppDelegate.swift */; };
 		1BFF12F92059A1AD007AE5F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BFF12F72059A1AD007AE5F0 /* Main.storyboard */; };
 		1BFF12FB2059A1AD007AE5F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BFF12FA2059A1AD007AE5F0 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		1B623C52207C046C00DD5D56 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1BB3172C209125F0006121F3 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		1BB31730209129AD006121F3 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		1BB31734209A5186006121F3 /* ServiceCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCategoryViewController.swift; sourceTree = "<group>"; };
 		1BFF12F02059A1AD007AE5F0 /* Baazar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baazar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BFF12F32059A1AD007AE5F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BFF12F82059A1AD007AE5F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				1BFF12FA2059A1AD007AE5F0 /* Assets.xcassets */,
 				1BFF12FC2059A1AD007AE5F0 /* LaunchScreen.storyboard */,
 				1BFF12FF2059A1AD007AE5F0 /* Info.plist */,
+				1BB31734209A5186006121F3 /* ServiceCategoryViewController.swift */,
 			);
 			path = Baazar;
 			sourceTree = "<group>";
@@ -471,6 +474,7 @@
 			files = (
 				BDE402422096B13E00A73DDD /* Bazaar.swift in Sources */,
 				1BB3172D209125F0006121F3 /* CategoryViewController.swift in Sources */,
+				1BB31735209A5187006121F3 /* ServiceCategoryViewController.swift in Sources */,
 				1B623C53207C046C00DD5D56 /* LoginViewController.swift in Sources */,
 				1BFF12F42059A1AD007AE5F0 /* AppDelegate.swift in Sources */,
 				1BB31731209129AD006121F3 /* CategoryTableViewCell.swift in Sources */,
