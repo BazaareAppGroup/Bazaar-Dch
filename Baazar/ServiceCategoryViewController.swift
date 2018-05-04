@@ -4,15 +4,22 @@
 //
 //  Created by David King on 5/2/18.
 //  Copyright © 2018 David King. All rights reserved.
-//
+// TO-DO create service object
+// TO-DO populate servicesinfo with array of services that belong in the category
 
 import UIKit
 
-class ServiceCategoryViewController: UITableViewController {
+class ServiceCategoryViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    
+    var servicesinfo = 0//array of service objects each object containing information on a particular service
+    
+    var category = "" // name of category the services fall under
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print("category \(category)")
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -27,14 +34,25 @@ class ServiceCategoryViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+        
+    {
+        
         return 0
     }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+    
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ServiceCategory", for: indexPath) as! ServiceTableViewCell
+        
+        return cell
+        
+        
+        
+        
+        
     }
 
     /*
