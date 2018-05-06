@@ -37,9 +37,8 @@ class LoginViewController: UIViewController {
         
         if (valid == true) // executes if sign in is a success
         {
-            
             print("sign in valid")
-            performSegue(withIdentifier: "LoginSuccess", sender: nil)
+            performSegue(withIdentifier: "LoginSegue", sender: nil)
         }
         
     }
@@ -63,7 +62,7 @@ class LoginViewController: UIViewController {
         if (valid == true) // executes if sign in is a success
         {
             
-            performSegue(withIdentifier: "LoginSuccess", sender: self)
+            performSegue(withIdentifier: "LoginSegue", sender: self)
         }
         
 

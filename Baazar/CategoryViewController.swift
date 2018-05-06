@@ -75,7 +75,7 @@ class CategoryViewController: UIViewController, UISearchBarDelegate, UITableView
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-      var serviceView = segue as!ServiceCategoryViewController
+      var serviceView = segue.destination as! ServiceCategoryViewController
        var cell = sender as! CategoryTableViewCell
         serviceView.category = cell.CategoryLabel.text!
     }
